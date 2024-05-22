@@ -180,6 +180,7 @@ export const Data = {
         "Enhance your business capabilities with our tailored OaaS services, driving seamless digital transformation for optimized operations",
       image: ooasPurple,
       hoverImage: ooasWhite,
+      path: "/OaaSer"
     },
     {
       id: 2,
@@ -188,6 +189,7 @@ export const Data = {
         "Empower your business for the future through automation and intelligent decision-making with our AI & Machine Learning solutions.",
       hoverImage: AiMlWhite,
       image: AiMlPurple,
+      path: "/Aiml"
     },
     {
       id: 3,
@@ -196,6 +198,7 @@ export const Data = {
         "Foster trust and transparency within your systems using Blockchain technology, ensuring secure and verifiable operations",
       hoverImage: blockchainWhite,
       image: blockchainPurple,
+      path: "/Blockchain"
     },
     {
       id: 4,
@@ -204,6 +207,7 @@ export const Data = {
         "Experience elevated business operations and scalability through Cloud Transformation, propelling your enterprise to new heights in the digital sphere.",
       hoverImage: cloudWhite,
       image: cloudPurple,
+      path: "/Cloud",
     },
     {
       id: 5,
@@ -212,6 +216,7 @@ export const Data = {
         "Revamp your processes to ensure transparent and accessible data through Data Engineering, redefining how information drives your operations",
       hoverImage: dataEngineeringWhite,
       image: dataEngineeringPurple,
+      path: "/DataEngin"
     },
     {
       id: 6,
@@ -220,6 +225,7 @@ export const Data = {
         "Utilize Data Analytics and Business Intelligence to optimize decision-making with comprehensive data structures and visual insights, empowering informed strategies.",
       hoverImage: dataAnalyticsWhite,
       image: dataAnalyticsPurple,
+      path: "/DataAnalytics&BI"
     },
     {
       id: 7,
@@ -228,6 +234,7 @@ export const Data = {
         "- Elevate customer interaction through user-friendly mobile applications, enhancing engagement and accessibility",
       hoverImage: mobilityWhite,
       image: mobilityPurple,
+      path: "/MobileDev"
     },
     {
       id: 8,
@@ -236,6 +243,7 @@ export const Data = {
         "Enhance your applications by modernizing them with advanced computing, ensuring they stay at the forefront of innovation.",
       hoverImage: devopsWhite,
       image: devopsPurple,
+      path: "/Devops"
     },
     {
       id: 9,
@@ -244,6 +252,7 @@ export const Data = {
         "Streamline your software development and IT operations, fostering seamless collaboration and faster delivery of high-quality applications",
       hoverImage: productWhite,
       image: productPurple,
+      path: "/ProductEngineering"
     },
   ],
   testimonial: [
