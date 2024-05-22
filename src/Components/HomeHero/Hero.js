@@ -4,11 +4,18 @@ import LeftCube from "../../Assets/cube.gif";
 import RightImage from "../../Assets/Group 39491.svg";
 import bottomRing from "../../Assets/Blend Group 1.svg";
 import Button from "../../Generic/Button/Button";
+import { useNavigate } from 'react-router-dom';
 
 const windowWidth = window.screen.width;
 console.log("windowWidth", windowWidth);
 
 function Hero() {
+
+  const navigate = useNavigate();
+
+  const handleRedirect = (path) => {
+    navigate(path);
+  };
   const backgroundColorLeft = "#FFFFFF";
   const backgroundColorRight = "black";
   const rightColor = "white";
@@ -53,13 +60,16 @@ function Hero() {
             </p>
           </div>
           <div className="flex flex-center buttonContainer">
+            
             <Button
+              onClick={() => handleRedirect('/Contact')}
               backgroundColor="#FFFFFF"
               color="black"
               text="Get started"
               arrow={true}
             />
             <Button
+              onClick={() => handleRedirect('/Contact')}
               backgroundColor="black"
               color="white"
               text="Talk to sales"

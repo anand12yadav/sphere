@@ -98,7 +98,7 @@ function NavBar() {
             style={{ fontSize: windowWidth > 786 ? "1.25rem" : "1.4rem" }}
             className="button-text text-white"
           >
-            Sphere Tech Labs
+            Sprint Tech Labs
           </p>
         </div>
         {/* <div onClick={toggleLeft} className="HamBurger text">
