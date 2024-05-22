@@ -18,7 +18,7 @@ import HiTecIcon from "../../Assets/web-30 (1) 1 (1).svg";
 import FinanceIcon from "../../Assets/web-30 (1) 1 (2).svg";
 import InsuranceIcon from "../../Assets/web-30 (1) 1 (3).svg";
 import ManufacturingIcon from "../../Assets/web-30 (1) 1 (4).svg";
-import HealthIcon from "../../Assets/web-30 (1) 1 (5).svg";
+import Manuf from "../../Assets/manufacturing.png";
 import NonProfitIcon from "../../Assets/web-30 (1) 1 (6).svg";
 import RetailIcon from "../../Assets/web-30 (1) 1 (7).svg";
 import DegitalIcon from "../../Assets/web-30 (1) 1 (8).svg";
@@ -323,12 +323,12 @@ export const Data = {
     {
       id: 5,
       title: "Manufacturing",
-      icon: ManufacturingIcon,
+      icon: Manuf,
     },
     {
       id: 6,
       title: "Healthcare",
-      icon: HealthIcon,
+      icon: ManufacturingIcon,
     },
     {
       id: 7,

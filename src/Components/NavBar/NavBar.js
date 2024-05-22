@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../asset/Logo.svg";
+import Logo from "../../asset/logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { Data } from "../../Constants/Data/Data";
 import DownArrow from "../../Assets/NavIcon/DownArrow.svg";
@@ -94,12 +94,14 @@ function NavBar() {
       >
         <div className="logo">
           <img src={Logo} alt="Logo" className="logo" />
-          <p
+          <NavLink
+          to = "/home" activeClassName="active"><p
             style={{ fontSize: windowWidth > 786 ? "1.25rem" : "1.4rem" }}
             className="button-text text-white"
           >
             Sprint Tech Labs
           </p>
+          </NavLink>
         </div>
         {/* <div onClick={toggleLeft} className="HamBurger text">
           <p style={{ color: "white", fontSize: "1.5rem" }}>Menu</p>

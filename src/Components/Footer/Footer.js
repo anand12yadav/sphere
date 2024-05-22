@@ -10,7 +10,7 @@ import Facebook from "../../Assets/Social Media Icon.svg";
 import Instgram from "../../Assets/Social Media Icon Square.svg";
 import Twitter from "../../Assets/Group 73.svg";
 import LinkedIn from "../../Assets/Social Media Icon Square (1).svg";
-import Logo from "../../asset/Logo.svg";
+import Logo from "../../asset/logo.png";
 import FacebookDark from "../../Assets/FacebookDark.svg";
 import InstaDark from "../../Assets/InstaDark.svg";
 import YouTubeDark from "../../Assets/YoutubeDark.svg";
@@ -45,10 +45,10 @@ function Footer() {
         </div>
         <div className="Detail">
           <div className="heading text-white">Get in touch today</div>
-          <div className="text text-white subText">
+          {/* <div className="text text-white subText">
             Lorem ipsum dolor sit amet consectetur adipiscing elit nulla
             adipiscing tincidunt interdum tellus du.
-          </div>
+          </div> */}
           <div className="text text-white subDetail">
             <img className="Icon DarkIcon" src={Call} />
             Phone: +91 99880908009
